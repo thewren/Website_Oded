@@ -118,15 +118,15 @@ body	{
 .footercontainer	{
 	bottom: 0;
 	width: 940px;
-
-
+	background-color: white;
+	margin: auto;
 
 	text-align: center;
-	position: fixed;
+	position: absolute;
 
 
 
-	padding-top: 10px; padding-bottom: 10px;
+	padding: 10px;
 
 
 	border: 1px solid purple;
