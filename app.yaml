@@ -13,8 +13,8 @@ threadsafe: true
 handlers:
 - url: /static/css
   static_dir: static/css
-- url: /static/images
-  static_dir: static/images
+- url: /static/photos
+  static_dir: static/photos
 - url: /static/js
   static_dir: static/js
 
