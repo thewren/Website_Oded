@@ -1,4 +1,4 @@
-@@ -1,158 +0,0 @@
+
 html	{
 	margin: -10px -10px 0px -10px;
 	background-color: #F2E0BD;
@@ -30,6 +30,13 @@ body	{
 	display: inline-block;
 
 	border: 1px solid blue;
+}
+
+.logo	{
+	float: left;
+	margin-left: 10px;
+	margin-top: 20px;
+	text-align: center;
 }
 
 .circlenav	{
