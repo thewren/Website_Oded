@@ -4,12 +4,68 @@
 
 {% block body %}
 	<div>
-		Hello World
-		<br />
-		<br />
-		Go to the <a href = '/other'>other world</a>.
-		<br />
-		<br />
-		Go to the <a href = '/blog'>blog world</a>.
+		<div class="stockphoto">
+	<img src="/static/photos/DSC00159.jpg" width="100%" height="100%" />
+
+<!--This works, just annoyed by the slideshow during development.
+	<script type="text/javascript">
+		<!--
+		var image1=new Image()
+		image1.src="/static/photos/DSC00159.jpg"
+		var image2=new Image()
+		image2.src="/static/photos/DSC00169.jpg"
+		var image3=new Image()
+		image3.src="/static/photos/DSC00233.jpg"
+		//-->
+<!--	</script>
+
+	<img src="/static/photos/DSC00159.jpg" name="slide" width="100%" height="100%">
+
+	<script type="text/javascript">
+	<!--
+	//variable that will increment through the images
+	var step=1
+	function slideit(){
+	//if browser does not support the image object, exit.
+	if (!document.images)
+	return
+	document.images.slide.src=eval("image"+step+".src")
+	if (step<3)
+	step++
+	else
+	step=1
+	//call function "slideit()" every 4 seconds
+	setTimeout("slideit()",4000)
+	}
+	slideit()
+	//-->
+<!--	</script>
+-->
+
+
+
+	<!--
+	Check out:
+		http://foundation.zurb.com/
+		http://zurb.com/playground/orbit-jquery-image-slider
+		http://stackoverflow.com/questions/13860671/how-to-create-image-slideshow-in-html
+		Or keep Googling to use an image slide show.
+	-->
+</div>
+
+	<div class="blurb">
+		<div class="blurbtitle">
+			Tile, Marble, and Design by Oded Heinrich
+		</div>
+		<div style="text-align: center; margin-left: 0px; margin-top: 20px;">
+			Oded Heinrich is a tile and marble contractor living and working in the Berkeley/Oakland area.
+		</div>
+		<div style="text-align: center; margin-left: -100px; margin-top: 20px;">
+			<strong>(555) 555 - 5555 | email@gmail.com</strong>
+		</div>
+	</div>
+
+
+
 	</div>
 {% endblock %}
